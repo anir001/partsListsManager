@@ -10,8 +10,6 @@ from pandastable.dialogs import addButton
 
 from core.manager import PartsListsManager
 
-import configparser
-
 VER = 'v0.1.2'
 
 
@@ -37,9 +35,6 @@ class App(Frame):
         self.create_toolbar()
         # - show -
         self.pt.show()
-
-        self.set_config('test')
-        self.get_config()
 
         return
 
