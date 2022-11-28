@@ -10,6 +10,10 @@ __pycache__/
 example/
 TODO.md
 changelog.md
+output
+
+# binary
+*.exe
 
 # Distribution / packaging
 .Python
